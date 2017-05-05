@@ -23,7 +23,7 @@ defaults:
       layout: "post"
       
 #### Pagination
-paginate: 20
+paginate: 10
 
 #### Site
 title : 会灰的大飞狼
@@ -36,9 +36,9 @@ language: zh-CN    ## blog site languages: en, zh-CN, zh-TW
 
 #### Menu
 menu:
-  Home: /
-  Archives: /archives
-  About: /about
+  主页: /
+  归档: /archives
+  关于: /about
 ## you can create `tags` and `categories` folders (I had created them already).
 ## And create a `index.md` file in each of them.
 ## set `front-matter`as
@@ -73,7 +73,7 @@ banner_img: #img/banner.jpg ## size:1920px*200px+. Banner Picture
 #### index post is expanding or not 
 index:
   expand: true           ## default is unexpanding,so you can only see the short description of each post.
-  excerpt_link: Read More  
+  excerpt_link: 阅读更多
 
 close_aside: false  #close sidebar in post page if true
 mathjax: true      #enable mathjax if true
@@ -83,8 +83,8 @@ share_button: true #enable share buttons if true
 author:
   ## e.g. wuchong Author name
   name: 会灰的大飞狼
-  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
-  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  intro_line1:  "Hello ,我是个java程序员."    ## your introduction on the bottom of the page
+  intro_line2:  "这是我的blog."  ## the 2nd line
   weibo:      ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
   weibo_verifier:  ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
   tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
@@ -94,7 +94,7 @@ author:
   email:      yi_dao2000@qq.com
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
   ## e.g. wuchong for https://github.com/wuchong
-  github:     https://github.com/yidao2000
+  github:     yidao2000
   facebook:   ## e.g. imjark for https://facebook.com/imjark
   linkedin:   ## e.g. wuchong1014 for https://www.linkedin.com/in/wuchong1014
   google_plus:    ## e.g. "111190881341800841449" for https://plus.google.com/u/0/111190881341800841449, the "" is needed!

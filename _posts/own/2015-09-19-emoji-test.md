@@ -1,6 +1,10 @@
 ---
 title: Emoji Test
 tags:
+- default
+categories:
+- default
+description:
 ---
 
 This is an emoji test. :smile:
